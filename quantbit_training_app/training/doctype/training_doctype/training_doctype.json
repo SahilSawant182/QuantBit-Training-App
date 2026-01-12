@@ -1,0 +1,161 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{Trianing}-{####}",
+ "creation": "2026-01-05 16:58:10.018888",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_vieh",
+  "enter_name",
+  "enter_email",
+  "password",
+  "age",
+  "column_break_ckfu",
+  "address",
+  "phone_no",
+  "male",
+  "female",
+  "educational_info_section",
+  "collage_name",
+  "location",
+  "select_department",
+  "overall_cgpa",
+  "enter_your_queries",
+  "amended_from",
+  "status"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "section_break_vieh",
+   "fieldtype": "Section Break",
+   "label": "Persnal Info"
+  },
+  {
+   "fieldname": "enter_name",
+   "fieldtype": "Data",
+   "label": "Enter Name"
+  },
+  {
+   "fieldname": "enter_email",
+   "fieldtype": "Data",
+   "label": "Enter Email",
+   "width": "100px"
+  },
+  {
+   "fieldname": "password",
+   "fieldtype": "Password",
+   "label": "Password"
+  },
+  {
+   "default": "0",
+   "fieldname": "male",
+   "fieldtype": "Check",
+   "label": "male"
+  },
+  {
+   "default": "0",
+   "fieldname": "female",
+   "fieldtype": "Check",
+   "label": "female"
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Data",
+   "label": "Age"
+  },
+  {
+   "fieldname": "column_break_ckfu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Select",
+   "label": "Address",
+   "options": "Sangli\nSatara\nPune"
+  },
+  {
+   "fieldname": "phone_no",
+   "fieldtype": "Phone",
+   "label": "Phone NO"
+  },
+  {
+   "fieldname": "educational_info_section",
+   "fieldtype": "Section Break",
+   "label": "Educational Info"
+  },
+  {
+   "fieldname": "collage_name",
+   "fieldtype": "Data",
+   "label": "Collage Name"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "label": "Location"
+  },
+  {
+   "fieldname": "select_department",
+   "fieldtype": "Select",
+   "label": "Select Department",
+   "options": "CSE\nAI&DS"
+  },
+  {
+   "fieldname": "overall_cgpa",
+   "fieldtype": "Int",
+   "label": "Overall CGPA"
+  },
+  {
+   "fieldname": "enter_your_queries",
+   "fieldtype": "Small Text",
+   "label": "Enter your Queries"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Training Doctype",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "status",
+   "options": "pending\ncompleated"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-01-06 12:08:58.099012",
+ "modified_by": "Administrator",
+ "module": "Training",
+ "name": "Training Doctype",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
